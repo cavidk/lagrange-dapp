@@ -1,0 +1,12 @@
+[programs.localnet]
+mylagrangedapp = "FL2UQkKMv7mu9G8kfPoJ7GjpFGueg8ES9u6fqi41u1ae"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/cavid/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
