@@ -1,9 +1,12 @@
-# lagrange-dapp++___Lagrange Smart Contract built on Anchor Framework..
 
 
-In this quest, we will be developing our own crypto-currency on the Solana blockchain or our own spl-token in the Solana lingo. This essentially means that once you are done with this quest, you will be able to make your crypto-currency using Solana programs and use that to do whatever you can think of, including using it as a fan token, a social token, a governance token, a utility token or a coin.
+# _Lagrange_Smart_Contract built on Anchor Framework..
 
-There are a few things that we need to get up and running before we move forward in this quest. Before we move forward make sure you've a working NodeJS environment set up. We need rust, Solana, Mocha(a JS testing framework), Anchor and Phantom wallet for this quest. To install rust, run
+
+  In this quest, we will be developing our own crypto-currency on the Solana blockchain or our own spl-token in the Solana lingo. 
+  This essentially means that once you are done with this quest, you will be able to make your crypto-currency using Solana programs and use that to do whatever you can think of, including using it as a fan token, a social token, a governance token, a utility token or a coin.
+
+  There are a few things that we need to get up and running before we move forward in this quest. Before we move forward make sure you've a working NodeJS environment set up. We need rust, Solana, Mocha(a JS testing framework), Anchor and Phantom wallet for this quest. To install rust, run
 
 <b>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh </b>
 
@@ -22,7 +25,7 @@ sh -c "$(curl -sSfL https://release.solana.com/v1.8.0/install)"
 Now we'll be installing Anchor. If you're on a linux system, run
 
 npm i -g @project-serum/anchor-cli
-Fair Warning : If you are using a Windows system, we highly suggest using WSL2 (Windows sub-system for Linux) or switching to a Linux environment. Setting up WSL is also quick and easy. A good walk-through can be found here For any other OS, you need to build from source. Run the following command
+  Fair Warning : If you are using a Windows system, we highly suggest using WSL2 (Windows sub-system for Linux) or switching to a Linux environment. Setting up WSL is also quick and easy. A good walk-through can be found here For any other OS, you need to build from source.     Run the following command
 
 cargo install --git https://github.com/project-serum/anchor --tag v0.17.0 anchor-cli --locked
 To verify that Anchor is installed, run
